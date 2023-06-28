@@ -1,0 +1,36 @@
+{
+  "99": {
+    "message_text": "Я найду для вас пару, анализируя ваше и его местоположение, возраст и семейное положение, ТОП-3 фото.\nкого будем искать?",
+    "keyboard": {
+      "one_time": false,
+      "inline": true,
+      "buttons": [
+        [
+          {
+            "action": {
+              "type": "text",
+              "label": "Найди парней"
+            },
+            "color": "positive"
+          },
+          {
+            "action": {
+              "type": "text",
+              "label": "Найди девок"
+            },
+            "color": "positive"
+          }
+        ],
+        [
+          {
+            "action": {
+              "type": "text",
+              "label": "Найди друзей"
+            },
+            "color": "primary"
+          }
+        ]
+      ]
+    }
+  }
+}
